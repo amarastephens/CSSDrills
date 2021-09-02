@@ -1,0 +1,96 @@
+body {
+  font-family: 'Coda', 'Helvetica', 'sans serif'; 
+  background:lightgrey
+}
+
+h2, p, .readme-wrapper { 
+text-align: center;
+
+}
+
+a {
+    text-decoration:none; 
+    color:green
+}
+
+a:hover {
+    cursor: pointer;
+    font-weight:bold;
+    color:yellow
+}
+
+span {
+    color: blue;
+    font-weight: bolder;
+}
+
+.boxes {
+    display: block;
+    margin: .5rem; 
+    padding: .5rem; 
+    border: .5rem solid tan;
+    border-radius:50px;
+    width: 30em;
+    
+}
+#box1{
+background-color: thistle;
+}
+#box2{
+background-color: skyblue;
+}
+#box3{
+background-color: paleturquoise
+}
+#box4{
+background-color: moccasin;
+}
+
+.image{
+    height: 50px; 
+    width: 50px; 
+    border-radius:50px;
+    background-color: rgb(12, 114, 197);
+    position: relative; 
+    top: 3.5rem; 
+    bottom: 1rem; 
+    right: 1rem; 
+    left: 5rem
+}
+h1{
+    color:tomato
+}
+.original {
+    color:violet
+}
+.additional {
+    color:yellowgreen
+}
+#show1{
+color:rebeccapurple
+}
+#show2{
+    color:saddlebrown
+}
+#show3{
+    color:salmon
+}
+#show4{
+    color:springgreen
+}
+#show5{
+    color:olive
+}
+ul{
+    color:palevioletred
+}
+.star{
+    color:slategrey
+}
+#wars{
+    color: deepskyblue;
+}
+
+.border{
+    border:2px solid black
+}
